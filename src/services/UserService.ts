@@ -11,6 +11,10 @@ class UserService {
   }
 
   public async create(user: UserDetails) {
+    const userExists = await this.model.getByUsername(user.username);
+
+    if (userExists) return { code: 404, message: 'The user already exists!' };
+
     const { id, username, classe, level, password } = await this.model.create(user);
 
     const JWT_SECRET = 'senhaSecreta';

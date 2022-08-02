@@ -8,3 +8,8 @@ export interface UserDetails {
 export interface UserIdFull extends UserDetails {
   id?: number,
 }
+
+export interface UserLogin {
+  username: string,
+  password: string,
+}
