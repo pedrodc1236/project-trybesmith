@@ -13,7 +13,7 @@ class OrderService {
     return { code: 200, orders };
   }
 
-  public async create(user: number, productsIds: number[]) {
+  public async create(userId: number, productsIds: number[]) {
     if (!productsIds) {
       const message = '"productsIds" is required';
       return { code: 400, message };
@@ -29,7 +29,7 @@ class OrderService {
       return { code: 422, message };
     }
 
-    const order = await this.model.create(user, productsIds);
+    const order = await this.model.create(userId, productsIds);
     return { code: 201, order };
   }
 }

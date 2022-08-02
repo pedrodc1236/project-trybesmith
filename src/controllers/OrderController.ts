@@ -10,7 +10,7 @@ class OrderController {
   };
 
   public create = async (req: Request, res: Response) => {
-    const { productsIds, user: id } = req.body;
+    const { productsIds, user: { id } } = req.body;
 
     const dataOrder = await this.orderService.create(id, productsIds);
 
