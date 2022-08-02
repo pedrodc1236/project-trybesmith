@@ -13,3 +13,8 @@ export interface UserLogin {
   username: string,
   password: string,
 }
+
+export interface Auth {
+  userId: number,
+  productsIds: number[]
+}
