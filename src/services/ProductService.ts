@@ -14,6 +14,11 @@ class ProductService {
 
     return { code: 201, newProduct };
   }
+
+  public async getAll() {
+    const products = await this.model.getAll();
+    return { code: 200, products };
+  }
 }
 
 export default ProductService;

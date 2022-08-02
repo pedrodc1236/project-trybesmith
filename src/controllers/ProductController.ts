@@ -8,9 +8,15 @@ class ProductController {
   public create = async (req: Request, res: Response) => {
     const body = req.body as ProductDetails;
 
-    const newProduct = await this.productService.create(body);
+    const { code, newProduct } = await this.productService.create(body);
 
-    return res.status(newProduct.code).json(newProduct.newProduct);
+    return res.status(code).json(newProduct);
+  };
+
+  public getAll = async (_req: Request, res: Response) => {
+    const { code, products } = await this.productService.getAll();
+
+    return res.status(code).json(products);
   };
 }
 
