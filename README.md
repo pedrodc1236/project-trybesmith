@@ -17,7 +17,7 @@ Para isso, foi necessário implementar todas as camadas da aplicação (Models, 
 
 Além disso, criei alguns endpoints que iriam ler e escrever em um banco de dados, utilizando o MySQL.
 
-Foram desenvolvidas as seguintes habilidades: 
+## Foram desenvolvidas as seguintes habilidades: 
 
 - Declarar variáveis e funções com tipagens TypeScript
 - Construir uma API Node Express utilizando o TypeScript.
