@@ -11,7 +11,7 @@
 
 <h2 align="left"> Sobre: </h2>
 
-Neste projeto, desenvolvi uma loja de itens medievais, no formato de uma API, utilizando TypeScript!
+<p> Neste projeto, desenvolvi uma loja de itens medievais, no formato de uma API, utilizando TypeScript! </p>
 
 Para isso, foi necessário implementar todas as camadas da aplicação (Models, Service e Controllers), em que foi possível realizar as operações em um determinado banco de dados: Criação, Leitura, Atualização e Exclusão (CRUD).
 
@@ -21,3 +21,6 @@ Foram desenvolvidas as seguintes habilidades:
 
 Declarar variáveis e funções com tipagens TypeScript
 Construir uma API Node Express utilizando o TypeScript.
+
+
+<p> </p>
