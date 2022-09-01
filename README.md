@@ -1,14 +1,15 @@
 <h1 align="center"> Projeto Trybesmith - Typescript 💻 </h1>
 
- <div align="center">
+## Tecnologia Utilizada
 
- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
- ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
- ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
- ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+<a href="https://www.typescriptlang.org/">
+<img 
+     src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=fff&logoWidth=20"
+     alt="Typescript"
+/>
+</a>
 
-</div>
-<br/> <br/>
+<h2 align="left"> Sobre: </h2>
 
 Neste projeto, desenvolvi uma loja de itens medievais, no formato de uma API, utilizando TypeScript!
 
@@ -16,7 +17,7 @@ Para isso, foi necessário implementar todas as camadas da aplicação (Models, 
 
 Além disso, criei alguns endpoints que iriam ler e escrever em um banco de dados, utilizando o MySQL.
 
-Neste projeto, desenvolvi as seguintes habilidades:
+Foram desenvolvidas as seguintes habilidades: 
 
-Declarar variáveis e funções com tipagens TypeScript;
+Declarar variáveis e funções com tipagens TypeScript
 Construir uma API Node Express utilizando o TypeScript.
